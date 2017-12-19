@@ -37,7 +37,29 @@ public class Main {
             System.out.println("High Score!");
 
         int secondScore = 60;
-        if(topScore > secondScore && topScore < 100)
+        if (topScore > secondScore && topScore < 100)
             System.out.println("Greater than the high score but less than 100");
+
+        if (topScore > 90 || secondScore <= 90)
+            System.out.println("One of these is true");
+
+        boolean isCar = true;
+        if (isCar = true)
+            System.out.println("This should'nt happen");
+
+        boolean wasCar = isCar ? true : false;
+        if (wasCar)
+            System.out.println("is true");
+        else
+            System.out.println("is false");
+
+        double twenty = 20d;
+        double eighty = 80d;
+        double value = (twenty + eighty) * 25d;
+        double remainder = value % 40d;
+
+        if (remainder <= 20)
+            System.out.println("Total was over the limit");
+
     }
 }
